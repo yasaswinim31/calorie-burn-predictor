@@ -43,9 +43,68 @@ calorie-burn-predictor/
 ├── requirements.txt             # Project dependencies
 ├── .gitignore                   # Files and folders to ignore
 └── README.md                    # You're here!
-
+```
 ---
 
 
-cd calorie-burn-predictor
+## 🚀 How to Run
 
+### ✅ Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yasaswinim31/calorie-burn-predictor.git
+cd calorie-burn-predictor
+```
+
+### ✅ Step 2: Create and Activate a Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate     # macOS/Linux
+
+# OR
+
+venv\Scripts\activate        # Windows
+```
+
+### ✅ Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### ✅ Step 3: Run the Sreamlit App
+
+```bash
+streamlit run streamlit_app/app.py
+```
+---
+## 🧪 Models Used
+	•	Linear Regression
+	•	Ridge Regression
+	•	Random Forest Regressor
+
+Evaluation metrics:
+	•	R² Score
+	•	RMSE (Root Mean Squared Error)
+ ---
+ 
+## 📊 Dataset Features
+	•	Gender
+	•	Age
+	•	Height (cm)
+	•	Weight (kg)
+	•	Duration (min)
+	•	Heart Rate
+	•	Body Temperature
+	•	Calories Burned (target)
+
+---
+## 🛠 Tech Stack
+
+| Tool          | Purpose             |
+|---------------|---------------------|
+| Python        | Core Language       |
+| Pandas        | Data Manipulation   |
+| Seaborn       | Visualization       |
+| Sickit-learn  | ML Modeling         |
+| Streamlit     | Web Applications    |
