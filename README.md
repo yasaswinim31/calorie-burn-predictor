@@ -35,7 +35,15 @@ calorie-burn-predictor/
 │
 ├── streamlit_app/
 │   └── app.py                   # Streamlit web application
+
+
+
 │
 ├── requirements.txt             # Project dependencies
 ├── .gitignore                   # Files and folders to ignore
 └── README.md                    # You're here!
+
+## 🚀 How to Run
+1. Clone the Repository
+git clone https://github.com/yasaswinim31/calorie-burn-predictor.git
+cd calorie-burn-predictor
